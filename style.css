@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Oswald", sans-serif;
+}
+
 section{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    height: 95vh;
     padding: 100px;
-    background: black;
+    background: url('images/pexels.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,40 +26,50 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 30px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 header .logo{
     position: relative;
-    max-width: 150px;
+    max-width: 100px;
 }
+
 header .navigation ul{
     position: relative;
     display: flex;
 }
+
 header .navigation li{
     list-style: none;
+    margin-left: 40px;
 }
+
 header .navigation li a{
-    color:blanchedalmond;
+    color:rgb(248, 248, 248);
     display: inline-block;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 19px;
-    margin-left: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 40px;
+    transition: 0.3s ease-in-out, color 0.3s ease-out;
 }
+
 .navigation li a:hover{
-    transform: translateY(-10px);
+    transform: translateY(-40px);
+    color: rgb(11, 130, 177);
 }
+
 .container{
-    position: relative;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .container .text{
     position: relative;
     max-width: 600px;
@@ -67,13 +82,12 @@ header .navigation li a{
     line-height: 2.5em;
     font-weight: 300;
 }
+
 .container .text h2 span{
     font-size: 3.5em;
-    color: antiquewhite;
+    color: rgb(11, 130, 177);
 }
-.container .text p{
-    color: blanchedalmond;
-}
+
 .container .text a{
     display:inline-block;
     margin-top: 50px;
@@ -86,20 +100,24 @@ header .navigation li a{
     border-radius: 40px;
     transition: 0.3s ease-in-out;
 }
+
 .container .text a:hover{
     transform: translateY(-10px);
 }
+
 .icons{
     position: absolute;
-    bottom: 40px;
+    bottom: 15px;
     left: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
 }
+
 .icons li{
     list-style: none;
 }
+
 .icons li a{
     display: inline-block;
     width: 50px;
@@ -110,17 +128,12 @@ header .navigation li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s ease-in-out;
+    transition:backgorund 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
 .icons li a:hover{
-    background:palegoldenrod;
+    background:rgb(11, 130, 177);
     transform: translateY(-10px);
 }
-.boxImg{
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-}
-.boxImg images{
-    width: 200px;
-}
+
+
