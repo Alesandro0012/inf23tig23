@@ -37,7 +37,7 @@ O projeto atende aos requisitos mínimos fornecendo:
 
 
 ### Ligação para o Site do Grupo
-[Site do projeto no Netlify](https://cute-basbousa-bcecc2.netlify.app/)
+[Site do projeto no Netlify](https://heroic-scone-b73165.netlify.app/)
 
 ### Instruções de Instalação e Configuração
 
