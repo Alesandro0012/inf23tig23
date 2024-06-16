@@ -136,4 +136,46 @@ header .navigation li a{
     transform: translateY(-10px);
 }
 
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .text h2 {
+        font-size: 2.5em;
+    }
+
+    header .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header .navigation ul li a {
+        font-size: 1.2em;
+    }
+
+    .icons li a img {
+        width: 25px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .text h2 {
+        font-size: 2em;
+    }
+
+    header .navigation ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .icons li a img {
+        width: 20px;
+    }
+}
 

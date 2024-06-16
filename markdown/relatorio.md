@@ -12,8 +12,8 @@ O site inclui várias páginas: início, produtos, contato e sobre todos feitos 
 
 ### Estudo da Interface
 #### Sitemap
-![Sitemap](caminho/para/sitemap.png)
-[Descrição do sitemap e como ele organiza as várias páginas e funcionalidades do sistema.]
+![Sitemap]()
+
 
 #### Sketch ou Wireframes
 ![Wireframe1](/images/wireframe1.png)
