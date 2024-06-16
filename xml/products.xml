@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="products.xsd">
+    <product>
+        <name>Camisola de Barcelona</name>
+        <category>Futebol</category>
+        <price>59.99</price>
+        <description>Camisola oficial do FC Barcelona para a temporada 2023/2024.</description>
+        <image>/images/barcelona.png</image>
+    </product>
+    <product>
+        <name>Camisola de Chelsea</name>
+        <category>Futebol</category>
+        <price>64.99</price>
+        <description>Camisola oficial do Chelsea FC para a temporada 2023/2024.</description>
+        <image>/images/chelsea.png</image>
+    </product>
+    <product>
+        <name>Camisola de Liverpool</name>
+        <category>Futebol</category>
+        <price>62.99</price>
+        <description>Camisola oficial do Liverpool FC para a temporada 2023/2024.</description>
+        <image>/images/liverpool.jpg</image>
+    </product>
+</products>
